@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    display: block;
+    margin-bottom: 20px;
+}
+form{
+    display:inline-block;
+}
+#register{
+    display: inline-block;
+    margin: 30px 0 0 100px;
+}
+#register input{
+    height:30px;
+    width: 200px;
+    float: right;
+    margin:20px 0 0 50px;
+}
+#register label{
+    float:left;
+    clear: right;
+    margin-top: 20px;
+}
+#register button{
+    margin:20px 0 0 300px;
+}
+
+#logIn{
+    display: inline-block;
+    margin: 100px 0 50px 100px;
+    vertical-align: top;
+}
+#logIn input{
+    height:30px;
+    width: 200px;
+    float:right;
+    margin:20px 0 0 50px;
+
+}
+#logIn label{
+    float:left;
+    clear: right;
+    margin-top:20px;
+}
+#logIn button{
+    margin:20px 0 0 300px;
+}
+#hello h1{
+    margin:20px 0 10px 0px;
+    display: inline-block;
+}
+#hello{
+    width:900px;
+    margin-left:270px;
+}
+#hello a{
+    float: right;
+    margin: 25px 0px 0 10px;
+
+}
+#hello button{
+    margin:0 0 20px 0;
+
+
+}
+#table{
+    width:900px;
+    margin-left: 270px;
+}
+#view{
+    margin:20px 0 0 30px;
+}
+#view h1{
+    display: inline-block;
+}
+#view a{
+    float:right;
+    margin-right: 30px;
+}
+#view h3{
+    margin-top: 15px;
+}
+#view h4{
+    margin:15px 0 0 20px;
+}
+#add h1{
+    margin:20px 0 0px 400px;
+    display: inline-block;
+}
+#add a{
+    margin-left: 400px;
+}
+#new{
+    margin:10px 0 0 400px;
+    height: 550px;
+    border: 2px solid black;
+    display: inline-block;
+    padding:0 30px 0px 30px;
+}
+#new label{
+    float:left;
+    clear:left;
+    margin:15px 0;
+}
+#new input{
+    margin:15px 0 0px 20px;
+    float:right;
+    height:30px;
+    width:250px;
+}
+#new a{
+    margin:20px 0 0 118px;
+}
+#new button{
+    margin:20px 0 0 10px;
+}
+
+#edit{
+    margin:10px 0 0 400px;
+    height: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    padding:0 30px 20px 30px;
+}
+#edit label{
+    float:left;
+    clear:left;
+    margin:15px 0;
+}
+#edit input{
+    margin:15px 0 0px 20px;
+    float:right;
+    height:30px;
+    width:250px;
+}
+#edit a{
+    margin:20px 0 0 118px;
+}
+#edit button{
+    margin:20px 0 0 10px;
+}
+
+.form-check input{
+    height:10px;
+    width:10px;
+    
+}
+#category li{
+    list-style-type: none;
+}
+#category input{
+    float:left;
+    height:15px;
+    width:15px;
+    margin:25px 0 0 23px;
+
+}
+#category label{
+    float:left;
+    clear:left;
+}
+#electrical li{
+    list-style-type: none;
+}
+#electrical input{
+    float:left;
+    height:15px;
+    width:15px;
+    margin:25px 0 0 20px;
+}
+#electrical label{
+    float:left;
+    clear:left;
+    margin-left: 30px;
+}
+#remodel input{
+    float:left;
+    height:15px;
+    width:15px;
+    margin:20px 0 0 22px;
+}
+#remodel label{
+    float:left;
+    clear:left;
+    margin:20px 0 10px 30px;
+}
+#remodel li{
+    list-style-type: none;
+}
+#giveAdd a{
+    margin:20px -90px 0 100px;
+
+}
