@@ -12,7 +12,7 @@ urlpatterns = [
     path('give/<int:job_id>/job', views.move_job),
     path('add/<int:job_id>/job', views.add_job),
     path('job/<int:job_id>/edit', views.edit_job),
-    path('edit/<int:job_id>/job', views.updated_job),
+    path('edit/<int:job_id>/job', views.update_job),
     path('job/<int:job_id>/view', views.view_job),
     path('remove/<int:job_id>', views.delete_job)
 ]

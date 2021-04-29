@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.db.models import Q
-from helper_app.models import*
+from helper_app.models import*  
 import bcrypt
 
 
@@ -67,7 +67,6 @@ def create_job(request):
                 
     
         user = User.objects.get(id=request.session['logged_user'])
-        print(request.POST['category'])
         new_job = Job.objects.create(
             title = request.POST['title'],
             description = request.POST['description'],
@@ -121,7 +120,7 @@ def edit_job(request, job_id):
     
     return render(request, 'edit_job.html', context)
 
-def updated_job(request, job_id):
+def update_job(request, job_id):
     if request.method == 'POST':
         errors = Job.objects.basic_validator(request.POST)
         
